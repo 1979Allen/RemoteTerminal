@@ -12,7 +12,7 @@
                 <ResourceDictionary Source="CustomStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <x:String x:Key="AppName">Remote Terminal</x:String>
+            <x:String x:Key="AppName">Remote Terminal 2</x:String>
             <model:FavoritesDataSource x:Key="favoritesDataSource"/>
             <model:PrivateKeysDataSource x:Key="privateKeysDataSource"/>
             <model:ColorThemesDataSource x:Key="colorThemesDataSource"/>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="46436StefanPodskubka.RemoteTerminal" Publisher="CN=46536A2F-5D79-4B8A-8099-26E3FCC16743" Version="1.8.1.20" />
+  <Identity Name="13928kexanie.RemoteTerminal2" Publisher="CN=89752737-4F9C-486C-9908-99AF411B4A64" Version="1.1.0.1" />
   <Properties>
-    <DisplayName>Remote Terminal</DisplayName>
-    <PublisherDisplayName>Stefan Podskubka</PublisherDisplayName>
+    <DisplayName>Remote Terminal 2</DisplayName>
+    <PublisherDisplayName>kexanie</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RemoteTerminal.App">
-      <m2:VisualElements DisplayName="Remote Terminal" Description="Remote Terminal - SSH and Telnet client" BackgroundColor="#001E4E" ForegroundText="light" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+      <m2:VisualElements DisplayName="Remote Terminal 2" Description="Remote Terminal 2 - SSH and Telnet client. This is a fork of Remote Terminal to support OpenSSH 7.2+." BackgroundColor="#001E4E" ForegroundText="light" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
         <m2:DefaultTile>
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
